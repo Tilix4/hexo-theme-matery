@@ -1,26 +1,26 @@
-posts: Posts
-category: Category
-categories: Categories
+posts: Articles
+category: Catégorie
+categories: Catégories
 tag: Tag
 tags: Tags
 archives: Archives
-about: About
-friends: Friends
-startRead: Start
-recommendedPosts: Recommended Posts
-publishDate: Publish Date
-readCount: Read Count
-wordCount: Word Count
-readTimes: Read Times
+about: A propos
+friends: Amis
+startRead: Découvrir
+recommendedPosts: Articles conseillés
+publishDate: Date de publication
+readCount: Nombre de lectures
+wordCount: Total de mots
+readTimes: Temps de lecture
 Minutes: Min
-readMore: Read more
+readMore: Lire plus
 toc: TOC
 reprint: Reprint please specify
-curr: Current
-prev: Previous
-next: Next
-search: Search
-searchTip: Please enter a search keyword
+curr: Courant
+prev: Précédent
+next: Suivant
+search: Rechercher
+searchTip: Entrez un mot-clé
 postTagTitle: Post Tags
 postCategoryTitle: Post Categories
 categoryRadarTitle: Post Categories Radar Chart
@@ -33,12 +33,12 @@ top10TagsChart: TOP10 Tags Chart
 postsNumberName: Number of posts
 maximum: Maximum
 minimum: Minimum
-average: Average
-myProjects: My Projects
-mySkills: My Skills
-otherSkills: Other Skills
-gallery: Gallery
-from: From
-author: Author
-link: Link
+average: Moyenne
+myProjects: Mes projets
+mySkills: Mes compétences
+otherSkills: Autres compétences
+gallery: Galerie
+from: De
+author: Auteur
+link: Lien
 notag: No tag
