@@ -1,10 +1,10 @@
 posts: Articles
 category: Catégorie
 categories: Catégories
-tag: Tag
-tags: Tags
+tag: Activité
+tags: Activités
 archives: Archives
-about: A propos
+about: Profil
 friends: Amis
 startRead: Découvrir
 recommendedPosts: Articles conseillés
@@ -21,9 +21,9 @@ prev: Précédent
 next: Suivant
 search: Rechercher
 searchTip: Entrez un mot-clé
-postTagTitle: Post Tags
-postCategoryTitle: Post Categories
-categoryRadarTitle: Post Categories Radar Chart
+postTagTitle: Activités
+postCategoryTitle: Catégories
+categoryRadarTitle: Graphe à catégories
 categoryNumber: Number of Categories
 categoryEmptyTip: Your posts has no categories information yet.
 postCharts: Post Charts
@@ -36,7 +36,7 @@ minimum: Minimum
 average: Moyenne
 myProjects: Mes projets
 mySkills: Mes compétences
-otherSkills: Autres compétences
+otherSkills: Compétences techniques
 gallery: Galerie
 from: De
 author: Auteur

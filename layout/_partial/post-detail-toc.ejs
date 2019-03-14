@@ -48,7 +48,6 @@
     }
 
     #toc-content .toc-link:hover {
-        color: #42b983;
         font-weight: 700;
         text-decoration: underline;
     }
@@ -59,11 +58,11 @@
     }
 
     #toc-content .is-active-link {
-        color: #42b983;
+        color: #FF8866;
     }
 
     #toc-content .is-active-link::before {
-        background-color: #42b983;
+        background-color: #FF8866;
     }
 
     #floating-toc-btn {
@@ -84,6 +83,10 @@
         line-height: 48px;
         font-size: 1.4rem;
     }
+
+    #floating-toc-btn .btn-floating i:hover {
+        background: #39AEA999;
+    }
 </style>
 <div class="row">
     <div id="main-content" class="col s12 m12 l9">
@@ -91,7 +94,7 @@
     </div>
     <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
         <div class="toc-widget">
-            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;<%- __('toc') %></div>
+            <div class="toc-title"><i class="fa fa-th-list"></i>&nbsp;&nbsp;<%- __('Plan') %></div>
             <div id="toc-content"></div>
         </div>
     </div>
@@ -101,7 +104,7 @@
 <% if (theme.toc.enable && theme.toc.showToggleBtn) { %>
 <div id="floating-toc-btn" class="hide-on-med-and-down">
     <a class="btn-floating btn-large bg-color">
-        <i class="fa fa-list"></i>
+        <i class="fa fa-th-list"></i>
     </a>
 </div>
 <% } %>

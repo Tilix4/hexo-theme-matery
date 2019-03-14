@@ -1,19 +1,19 @@
 # main menu navigation url and icon
 # 配置菜单导航的名称、路径和图标icon.
 menu:
-  Tags:
+  Activités:
     url: /tags
-    icon: fa-tags
-  Categories:
+    icon: fa-pencil
+  Catégories:
     url: /categories
-    icon: fa-bookmark
+    icon: fa-film
   Archives:
     url: /archives
-    icon: fa-archive
-  About:
+    icon: fa-folder-open
+  Profil:
     url: /about
     icon: fa-user-circle-o
-  Friends:
+  Amis:
     url: /friends
     icon: fa-address-book
 
@@ -110,7 +110,7 @@ code:
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
-  enable: true
+  enable: false
   title: 你的赏识是我前进的动力
   wechat: /medias/reward/wechat.png
   alipay: /medias/reward/alipay.jpg
@@ -152,7 +152,7 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: Software Engineer
+  career: Auteur, réalisateur et technicien bricoleur
   introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
 
 # config my projects informations in about page.
@@ -183,24 +183,27 @@ myProjects:
 mySkills:
   enable: true
   data:
-    Java:
-      background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
-      percent: 85%
-    JavaScript:
-      background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
+    Blender:
+      background: 'linear-gradient(to right, #F4792B 0%, #FE9859 100%)'
       percent: 80%
-    HTML5:
-      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 80%
-    CSS:
+    After Effects:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 70%
-    SQL:
+      percent: 85%
+    Premiere Pro:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 90%
-    程序设计:
+      percent: 70%
+    Pâtisserie:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
       percent: 75%
+    Python:
+      background: 'linear-gradient(to right, #3873A3 0%, #5EB9FE 100%)'
+      percent: 50%
+    C++:
+      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
+      percent: 30%
+    Substance Designer:
+      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
+      percent: 50%
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
@@ -214,7 +217,7 @@ myGallery:
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
-postCalendar: true
+postCalendar: false
 
 # the Gitalk config，default disabled
 # Gitalk 评论模块的配置，默认为不激活
