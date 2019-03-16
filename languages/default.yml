@@ -13,7 +13,7 @@ readCount: Nombre de lectures
 wordCount: Total de mots
 readTimes: Temps de lecture
 Minutes: Min
-readMore: Lire plus
+readMore: Voir
 toc: TOC
 reprint: Reprint please specify
 curr: Courant
@@ -26,10 +26,10 @@ postCategoryTitle: Catégories
 categoryRadarTitle: Graphe à catégories
 categoryNumber: Number of Categories
 categoryEmptyTip: Your posts has no categories information yet.
-postCharts: Post Charts
+postCharts: Quelques graphiques
 postPublishChart: Post Publish Chart
-categoriesChart: Categories Chart
-top10TagsChart: TOP10 Tags Chart
+categoriesChart: Catégories
+top10TagsChart: TOP 10 des activités
 postsNumberName: Number of posts
 maximum: Maximum
 minimum: Minimum

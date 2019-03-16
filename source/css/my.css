@@ -21,12 +21,39 @@
     opacity: 0.6;
 }
 
+.disabled {
+  display: none;
+}
+
+/* Header */
+header nav .brand-logo:hover {
+    opacity: 0.3;
+}
+
+.hide-on-med-and-down:hover {
+  background: var(--lighter);
+}
+
+.modal-trigger:hover {
+  background: var(--lighter);
+}
+
+.mobile-menu-list a i {
+    color: var(--dark) !important;
+}
+
 /* Index Page */
 .cover-btns a:hover {
     border: 1px solid var(--lighter);
     background-color: var(--lighter);
     box-shadow: 0 14px 26px -12px #A2D5AB99, 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px #A2D5AB22;
     color: var(--dark);
+}
+
+article .article-content .summary {
+    word-break: normal;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* Post Page */
@@ -45,6 +72,10 @@
 #artDetail .post-cate a {
     color: var(--medium);
     font-weight: 500;
+}
+
+.logo {
+    box-shadow: none;
 }
 
 #toc-content .is-active-link {
@@ -109,10 +140,10 @@
 #aboutme .social-link a {
     color: #fff;
     border: 1px solid #0f9d58;
-    background: radial-gradient(var(--medium), var(--light));;
+    background: var(--medium);
     font-size: 0.9rem;
     border-radius: 50%;
-    box-shadow: 0 4px 6px rgba(50, 50, 93, .21), 0 2px 3px rgba(0, 0, 0, .1);
+    box-shadow: none;
 }
 
 .row .sub-title {

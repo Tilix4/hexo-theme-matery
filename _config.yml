@@ -1,21 +1,24 @@
 # main menu navigation url and icon
 # 配置菜单导航的名称、路径和图标icon.
 menu:
+  #Index:
+  #  url: /
+  #  icon: fa-home
   Activités:
     url: /tags
     icon: fa-pencil
   Catégories:
     url: /categories
     icon: fa-film
-  Archives:
+  Projets:
     url: /archives
     icon: fa-folder-open
   Profil:
     url: /about
     icon: fa-user-circle-o
-  Amis:
-    url: /friends
-    icon: fa-address-book
+  #Amis:
+  #  url: /friends
+  #  icon: fa-address-book
 
 # Index cover carousel configuration.
 # 首页封面轮播图的相关配置.
@@ -24,15 +27,19 @@ cover:
   showIndicators: true # 是否显示指示器. # Whether to display the indicators
   autoLoop: true # 是否自动轮播. Whether it is automatically rotated.
   duration: 120 # 切换延迟时间. Switching delay time.
-  intervalTime: 5000 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
+  intervalTime: 10000 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
 
 # index page dream text,
 # 配置首页显示"梦想"的语句.
 dream:
   enable: true
   showTitle: true
-  title: Des mots sur moi
-  text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+  title: Des mots à mon propos
+  text: "Créateur d'univers et d'histoires, j'écris pour tout médium et je cherche toujours à expérimenter. J'ai une certaine affection pour le fantastique, là où le réel s'effondre sous nos pieds pour laisser apparaitre ce que le sensible a à offrir.
+Basé sur l'atmosphère, mon travail privilégie l'ambiance. Les personnages, qu'ils soient complexes, simples ou abstraits, viennent évoluer dans un monde qui, souvent, les dépasse.
+
+J'ai commencé par l'écriture, puis le cinéma est venu après, un peu par hasard, et maintenant il ne me lâche plus.
+Je suis actuellement en seconde année (M1) du cursus Arts et Technologies de l'Image de Paris 8 Saint-Denis."
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -151,21 +158,21 @@ clicklove:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatar.jpg
-  career: Auteur, réalisateur et technicien bricoleur
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  avatar: /images/felix-pellicule.jpg
+  career: De l'écriture à la postproduction
+  introduction: Artiste et technicien numérique polyvalent. Je réalise et j'écris des projets autant que je crée ou améliore des outils qui me permettent de les concrétiser.
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
+  enable: false
   data:
-    hexo-theme-matery:
-      icon: fa-meetup
+    L'allumeur de réverbères:
+      icon: fa-lightbulb-o
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
+      url: http://reverbere.exppad.com/
+      desc: Un jeu vidéo-projeté où vous aidez un enfant à allumer les lumières de sa ville.
     zealt:
         icon: fa-database
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
@@ -209,7 +216,7 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: true
+  enable: false
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
@@ -269,7 +276,7 @@ valine:
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
-  enable: true
+  enable: false
   url: https://github.com/blinkfox/hexo-theme-matery
   title: Fork Me
 
