@@ -30,6 +30,10 @@ header nav .brand-logo:hover {
     opacity: 0.3;
 }
 
+header .brand-logo .logo-span {
+    font-size: 80%;
+}
+
 .hide-on-med-and-down:hover {
   background: var(--lighter);
 }
