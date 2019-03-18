@@ -34,7 +34,7 @@ header .brand-logo .logo-span {
     font-size: 80%;
 }
 
-.hide-on-med-and-down:hover {
+.right li:hover {
   background: var(--lighter);
 }
 
