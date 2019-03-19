@@ -1,6 +1,6 @@
 <% if (site.posts && site.posts.length > 0) { %>
 <div class="statis">
-    <span class="count"><a href="<%- url_for('/') %>" target="_blank"><%- site.posts.length %></a></span>
+    <span class="count"><a href="<%- url_for('/#indexCard') %>" target="_blank"><%- site.posts.length %></a></span>
     <span class="name"><%- __('posts') %></span>
 </div>
 <% } %>

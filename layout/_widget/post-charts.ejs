@@ -144,6 +144,47 @@
         ]
     };
 
+
+    <%
+    /* calculate tagsOption data. */
+    var tagArr = [];
+    site.tags.map(function(tags) {
+        tagArr.push({'name': tags.name, 'value': tags.length})
+    });
+
+    var tagArrJson = JSON.stringify(tagArr);
+    %>
+
+    let tagsOption = {
+        title: {
+            text: '<%- __("tagsChart")  %>',
+            top: -4,
+            x: 'center'
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        series: [
+            {
+                name: '<%- __("tags")  %>',
+                type: 'pie',
+                radius: '50%',
+                color: ['#CCB83E', '#68CC55', '#FFC455', '#94DEFF', '#7BF079', '#999370', '#7DC8CC', '#f51c47', '#26A69A', '#A184C5', '#55C1FF', '#707599', '#2F41CC', '#CC937D'],
+                data: <%- tagArrJson %>,
+                itemStyle: {
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ]
+    };
+
+/*
+    //OLD
     <%
     /* calculate tagsOption data. */
     // get all tags name and count,then order by length desc.
@@ -210,6 +251,7 @@
             }
         ]
     };
+*/
 
     // render the charts
     postsChart.setOption(postsOption);

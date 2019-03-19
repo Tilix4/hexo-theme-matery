@@ -26,10 +26,10 @@ postCategoryTitle: Catégories
 categoryRadarTitle: Graphe à catégories
 categoryNumber: Number of Categories
 categoryEmptyTip: Your posts has no categories information yet.
-postCharts: Quelques graphiques
+postCharts: Deux camemberts
 postPublishChart: Post Publish Chart
-categoriesChart: Catégories
-top10TagsChart: TOP 10 des activités
+categoriesChart: Camembert des catégories
+tagsChart: Camembert des activités
 postsNumberName: Number of posts
 maximum: Maximum
 minimum: Minimum
