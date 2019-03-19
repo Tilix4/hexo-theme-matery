@@ -87,7 +87,7 @@ indexbtn:
   enable: true
   name: Contact
   icon: fa-at
-  url: mailto:felixg.david@gmail.com
+  url: mailto:contact@felixdavid.com
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
@@ -95,7 +95,7 @@ indexbtn:
 socialLink:
   github: https://github.com/Tilix4
   #gitlab: https://gitlab.com/Tilix4
-  email: felixg.david@gmail.com
+  email: contact@felixdavid.com
   linkedin: https://www.linkedin.com/in/felixdavid04/
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
