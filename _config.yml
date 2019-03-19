@@ -35,10 +35,7 @@ dream:
   enable: true
   showTitle: true
   title: Des mots à mon propos
-  text: "Créateur d'univers et d'histoires, j'écris pour tout médium et je cherche toujours à expérimenter. J'ai une certaine affection pour le fantastique, là où le réel s'effondre sous nos pieds pour laisser apparaitre ce que le sensible a à offrir.
-Basé sur l'atmosphère, mon travail privilégie l'ambiance. Les personnages, qu'ils soient complexes, simples ou abstraits, viennent évoluer dans un monde qui, souvent, les dépasse.
-
-J'ai commencé par l'écriture, puis le cinéma est venu après, un peu par hasard, et maintenant il ne me lâche plus.
+  text: "Artiste et technicien numérique polyvalent. Je réalise et j'écris des projets autant que je crée ou améliore des outils qui me permettent de les concrétiser.
 Je suis actuellement en seconde année (M1) du cursus Arts et Technologies de l'Image de Paris 8 Saint-Denis."
 
 # Whether to display the musics.
@@ -160,7 +157,8 @@ clicklove:
 profile:
   avatar: /images/felix-pellicule.jpg
   career: De l'écriture à la postproduction
-  introduction: Artiste et technicien numérique polyvalent. Je réalise et j'écris des projets autant que je crée ou améliore des outils qui me permettent de les concrétiser.
+  introduction: "Artiste et technicien numérique polyvalent. Je réalise et j'écris des projets autant que je crée ou améliore des outils qui me permettent de les concrétiser.
+  Je suis actuellement en seconde année (M1) du cursus Arts et Technologies de l'Image de Paris 8 Saint-Denis."
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -204,12 +202,12 @@ mySkills:
       percent: 75%
     Python:
       background: 'linear-gradient(to right, #3873A3 0%, #5EB9FE 100%)'
-      percent: 50%
+      percent: 45%
     C++:
-      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
+      background: 'linear-gradient(to right, #2A7F4D 0%, #3FBF74 100%)'
       percent: 30%
     Substance Designer:
-      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
+      background: 'linear-gradient(to right, #55097F 0%, #7F0EBF 100%)'
       percent: 50%
 
 # config gallery of my photos in about page.
