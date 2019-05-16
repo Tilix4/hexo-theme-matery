@@ -57,10 +57,10 @@ music:
 # Whether to display the videos.
 # 是否在首页显示视频.
 video:
-  enable: false
+  enable: true
   showTitle: true
-  title: 精彩视频
-  url: # 必填
+  title: Demoreel
+  url: /videos/Demoreel_Director-TechnicalArtist.mp4
   pic:
   thumbnails:
   height: # 如：400
