@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<%- theme.libs.css.tocbot %>">
+<link rel="stylesheet" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.tocbot) %>">
 <style>
     #articleContent h1::before,
     #articleContent h2::before,
@@ -23,12 +23,12 @@
     }
 
     .toc-widget {
+        width: 345px;
         padding-left: 20px;
     }
 
     .toc-widget .toc-title {
-        margin: 35px 0 15px 0;
-        padding-left: 17px;
+        padding: 35px 0 15px 17px;
         font-size: 1.5rem;
         font-weight: bold;
         line-height: 1.5rem;
@@ -37,6 +37,11 @@
     .toc-widget ol {
         padding: 0;
         list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
     }
 
     #toc-content ol {
@@ -55,6 +60,10 @@
     #toc-content .toc-link::before {
         background-color: transparent;
         max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
     }
 
     #toc-content .is-active-link {
@@ -67,7 +76,7 @@
 
     #floating-toc-btn {
         position: fixed;
-        right: 20px;
+        right: 15px;
         bottom: 76px;
         padding-top: 15px;
         margin-bottom: 0;
@@ -109,14 +118,14 @@
 </div>
 <% } %>
 
-<script src="<%- theme.libs.js.tocbot %>"></script>
+<script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.tocbot) %>"></script>
 <script>
     $(function () {
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
-            // headingsOffset: -205,
+            collapseDepth: Number('<%- theme.toc.collapseDepth %>'),
             headingSelector: '<%- theme.toc.heading %>'
         });
 
@@ -173,10 +182,10 @@
         let $mainContent = $('#main-content');
         $('#floating-toc-btn .btn-floating').click(function () {
             if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).slideUp(500);
+                $tocAside.removeClass(expandedClass).hide();
                 $mainContent.removeClass('l9');
             } else {
-                $tocAside.addClass(expandedClass).slideDown(500);
+                $tocAside.addClass(expandedClass).show();
                 $mainContent.addClass('l9');
             }
             fixPostCardWidth('artDetail', 'prenext-posts');
